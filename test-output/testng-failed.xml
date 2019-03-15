@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="listeners.TestNG_Listener"/>
+  </listeners>
+  <test thread-count="5" name="test3(failed)">
+    <classes>
+      <class name="com.fb.Testcases.RegisterTest">
+        <methods>
+          <include name="open_browser"/>
+          <include name="Register"/>
+        </methods>
+      </class> <!-- com.fb.Testcases.RegisterTest -->
+    </classes>
+  </test> <!-- test3(failed) -->
+</suite> <!-- Failed suite [suite] -->

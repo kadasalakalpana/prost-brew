@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-15T21:06:13Z" name="suite" finished-at="2019-03-15T21:06:51Z" duration-ms="37474">
+    <groups>
+    </groups>
+    <test started-at="2019-03-15T21:06:13Z" name="test2" finished-at="2019-03-15T21:06:33Z" duration-ms="20023">
+      <class name="com.fb.Testcases.RegisterTest">
+        <test-method is-config="true" signature="open_browser(java.lang.String)[pri:0, instance:com.fb.Testcases.RegisterTest@671a5887]" started-at="2019-03-15T21:06:13Z" name="open_browser" finished-at="2019-03-15T21:06:21Z" duration-ms="7575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browser -->
+        <test-method signature="open_url()[pri:1, instance:com.fb.Testcases.RegisterTest@671a5887]" started-at="2019-03-15T21:06:21Z" name="open_url" finished-at="2019-03-15T21:06:29Z" duration-ms="8184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_url -->
+        <test-method signature="Register()[pri:2, instance:com.fb.Testcases.RegisterTest@671a5887]" started-at="2019-03-15T21:06:29Z" name="Register" finished-at="2019-03-15T21:06:33Z" duration-ms="4244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+      </class> <!-- com.fb.Testcases.RegisterTest -->
+    </test> <!-- test2 -->
+    <test started-at="2019-03-15T21:06:33Z" name="test3" finished-at="2019-03-15T21:06:51Z" duration-ms="17398">
+      <class name="com.fb.Testcases.RegisterTest">
+        <test-method is-config="true" signature="open_browser(java.lang.String)[pri:0, instance:com.fb.Testcases.RegisterTest@5fa07e12]" started-at="2019-03-15T21:06:33Z" name="open_browser" finished-at="2019-03-15T21:06:39Z" duration-ms="5726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_browser -->
+        <test-method signature="open_url()[pri:1, instance:com.fb.Testcases.RegisterTest@5fa07e12]" started-at="2019-03-15T21:06:39Z" name="open_url" finished-at="2019-03-15T21:06:47Z" duration-ms="7852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_url -->
+        <test-method signature="Register()[pri:2, instance:com.fb.Testcases.RegisterTest@5fa07e12]" started-at="2019-03-15T21:06:47Z" name="Register" finished-at="2019-03-15T21:06:51Z" duration-ms="3810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+      </class> <!-- com.fb.Testcases.RegisterTest -->
+    </test> <!-- test3 -->
+  </suite> <!-- suite -->
+</testng-results>
