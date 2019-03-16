@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [suite]" guice-stage="DEVELOPMENT">
+<suite thread-count="2" parallel="tests" name="Failed suite [suite]" guice-stage="DEVELOPMENT">
   <parameter name="browser" value="Chrome"/>
   <listeners>
     <listener class-name="listeners.TestNG_Listener"/>
   </listeners>
-  <test thread-count="5" name="test3(failed)">
+  <test thread-count="2" parallel="tests" name="EdgeTest(failed)">
     <classes>
       <class name="com.fb.Testcases.RegisterTest">
         <methods>
@@ -14,5 +14,5 @@
         </methods>
       </class> <!-- com.fb.Testcases.RegisterTest -->
     </classes>
-  </test> <!-- test3(failed) -->
+  </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [suite] -->

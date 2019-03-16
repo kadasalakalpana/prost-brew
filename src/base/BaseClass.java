@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 /**
@@ -17,7 +17,7 @@ public class BaseClass {
 	public static WebDriver d;
 
 	@Parameters("browser")
-	@BeforeTest
+	@BeforeSuite
 	public void open_browser(String browser) {
 		switch (browser) {
 		case "Firefox":

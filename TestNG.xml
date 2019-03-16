@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="suite">
-<listeners>
+<suite name="suite" parallel="tests" thread-count="1">
+	<listeners>
 		<listener class-name="listeners.TestNG_Listener" />
 	</listeners>
-	<!-- <parameter name="browser" value="Edge"></parameter>
-	<test name="test2">
+	<parameter name="browser" value="Edge"></parameter>
+	<test name="EdgeTest" preserve-order="true">
 		<classes>
 			<class name="com.fb.Testcases.RegisterTest" />
 		</classes>
-	</test> -->
+	</test>
 
 	<parameter name="browser" value="Chrome"></parameter>
-	<test name="test3">
+	<test name="ChromeTest" preserve-order="true">
 		<classes>
 			<class name="com.fb.Testcases.RegisterTest" />
 		</classes>
